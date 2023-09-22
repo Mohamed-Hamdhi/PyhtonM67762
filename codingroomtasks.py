@@ -29,3 +29,10 @@ num = int(input("Enter the Number you desire :"))
 
 print("The next number for the number",num,"is",num+1)
 print("The previous number for the number",num,"is",num-1)
+
+#sum of 3
+num1 = int(input("Enter First Number :"))
+num2 = int(input("Enter Second Number :"))
+num3 = int(input("Enter Third Number :"))
+
+print("The Sum is :",num1+num2+num3)
