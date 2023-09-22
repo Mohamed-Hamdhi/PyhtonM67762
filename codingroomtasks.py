@@ -22,3 +22,10 @@ print("The Area of the Triangle is :",0.5*b*h)
 name = str(input("Enter your Name :"))
 
 print("Hello ",name)
+
+#next and previous number
+
+num = int(input("Enter the Number you desire :"))
+
+print("The next number for the number",num,"is",num+1)
+print("The previous number for the number",num,"is",num-1)
