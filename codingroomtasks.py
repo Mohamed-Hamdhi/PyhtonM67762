@@ -117,3 +117,4 @@ for i in listnum:
     
     if i == ".":
         print(listnum[listnum.index(".")+1])
+
