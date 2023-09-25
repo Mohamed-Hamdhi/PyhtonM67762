@@ -105,3 +105,15 @@ num2 = int(listnum[1])
 num3 = int(listnum[2])
 
 print(num1+num2+num3)
+
+#digit after deciaml point
+num = float(input("Enter a Float number :"))
+
+strnum = str(num)
+
+listnum = list(strnum)
+
+for i in listnum:
+    
+    if i == ".":
+        print(listnum[listnum.index(".")+1])
