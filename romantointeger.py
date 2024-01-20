@@ -1,4 +1,4 @@
-s = "LVIII"
+s = "VII"
 total = 0
 num = []
 for i in s:
@@ -27,4 +27,7 @@ for i in num:
     total += i
     
 
-print(total)
+print("your number is : ",total)
+
+
+    
