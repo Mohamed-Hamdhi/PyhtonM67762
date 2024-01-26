@@ -1,15 +1,18 @@
-num = int(input("Enter a number : "))
-num = str(num)
-entries = 0 
-index = 1
-index2 = -1
-while len(num) != entries:
-    if num[index] == num[index2]:
-        index +=1
-        index2 -= 1
-        entries += 1
-        print("its a plaindrome")
+num = str(input("Enter a number : "))
 
-    else:
-        print("not a palindrome")
-        exit()
+index = 0
+reverse = []
+index2 = -1
+order = []
+while len(num) != index:
+    order.append(num[index])
+    index +=1
+    reverse.append(num[index2])
+    index2 -= 1
+
+
+if order == reverse :
+    print("it is a palindrome")
+
+else:
+    print("it is not a palindrome")
